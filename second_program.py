@@ -13,11 +13,11 @@
 dog = {}
 
 #adding key value pairs to the dog dictionary
-dog = {'name':'Lucky', 'color':'white', 'breed':'Beagle', 'legs':'4', 'age':'5'}
+dog = {'name':'Jessie', 'color':'white', 'breed':'Golden Retriver', 'legs':'4', 'age':'3'}
 
 #creating a student dictionary
-student = {'first_name':'Priyanka', 'last_name': 'JP', 'gender':'female', 'age': '21', 'marital_status':'single',
-           'skills':['pharma'], 'country': 'India', 'city':'Hyderabad', 'address':'12453'}
+student = {'first_name':'Ajay', 'last_name': 'Veluru', 'gender':'male', 'age': '24', 'marital_status':'single',
+           'skills':['Java'], 'country': 'India', 'city':'Cuddapah', 'address':'516390'}
 
 #finding length of student dictionary
 print(f"The length of student dictionay: {len(student)}")
@@ -25,10 +25,10 @@ print(f"The length of student dictionay: {len(student)}")
 #getting value of skills and checking datatype
 print(type(student['skills']))
 
-#modifying skills
-student['skills'].extend(['singing', 'dancing'])
+#adding new skills
+student['skills'].extend(['gaming', 'dancing'])
 print(student['skills'])
 
-#printing keys and values
+#printing keys and values for the student dictionary
 print(f"The keys of student dictionary:{student.keys()}")
 print(f"The values of student dictionary: {student.values()}")
